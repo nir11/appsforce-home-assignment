@@ -1,0 +1,30 @@
+.user-form-container {
+  .info-wrapper {
+    flex: 1;
+    display: flex;
+    .input-and-label-container {
+      display: flex;
+      align-items: center;
+      width: 100%;
+      label {
+        flex: 3;
+        margin-right: 4px;
+      }
+      input {
+        flex: 8;
+      }
+    }
+  }
+  .bottom-buttons-container {
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    margin: auto;
+  }
+  .error {
+    text-align: center;
+    color: red;
+    margin: 0;
+    margin-top: 5px;
+  }
+}
